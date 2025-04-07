@@ -10,36 +10,33 @@ body {
     padding: 0;
     background-color: #fff;
     color: #000;
-    
 }
-
 #container {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
 }
-
 /* Header */
 header h1 {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
     color: #d37c00;
-    border-bottom: 2px solid #d37c00;
+    border-left: 1.6px solid black;
+    border-right: 1.6px solid black;
     display: inline-block;
     padding-bottom: 5px;
     margin-top: 0;
     margin-bottom: 20px;
 }
-
 /* Article Image */
 article img {
-   width: 100%; 
+   width: 100%;  
     height: auto;
     margin-bottom: 10px;
-    align-items: left;}
-
+    align-items: left;
+}
 /* First H2 Under Image */
 article h2:first-of-type {
     font-size: 40px;
@@ -48,8 +45,8 @@ article h2:first-of-type {
     column-span: all;
     margin-top: 0;
     margin-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 /* All Headings */
 h2 {
     font-size: 15px;
@@ -58,8 +55,8 @@ h2 {
     break-inside: avoid;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 /* Paragraphs */
 p {
     font-size: 16px;
@@ -67,7 +64,6 @@ p {
     margin-top: 0;
     margin-bottom: 16px;
 }
-
 /* Column Layout */
 article {
     column-count: 3;
@@ -81,24 +77,30 @@ article {
     column-fill: auto;
     
 }
-
 /* Strong Text Styling */
 strong {
     color: #d37c00;
     font-weight: bold;
 }
-
 /* Quoted Text Styling */
 q {
     font-style: italic;
     font-weight: bold;
     color: #444;
 }
+#container p:last-of-type{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
 /* Footer */
 footer {
     font-size: 12px;
-    color: #777;
+    color: #050505c4;
     text-align: right;
     margin-top: 30px;
+}
+footer time{
+    color: rgba(52, 50, 48, 0.642);
 }
