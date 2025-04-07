@@ -2,6 +2,7 @@
 html{
     size: 500px;
 }
+/* set css for body */
 body {
     font-family: 'Georgia', serif;
     line-height: 1.6;
@@ -37,7 +38,67 @@ article img {
    width: 100%; 
     height: auto;
     margin-bottom: 10px;
-    
+    align-items: left;}
+
+/* First H2 Under Image */
+article h2:first-of-type {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    column-span: all;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* All Headings */
+h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    break-inside: avoid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/* Column Layout */
+article {
+    column-count: 3;
+    column-gap: 30px;
+    column-width: 200px;
+}
+
+/* Make First Paragraph Span All Columns */
+#container p:first-of-type {
+    column-span: all; 
+    column-fill: auto;
     
 }
 
+/* Strong Text Styling */
+strong {
+    color: #d37c00;
+    font-weight: bold;
+}
+
+/* Quoted Text Styling */
+q {
+    font-style: italic;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Footer */
+footer {
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+    margin-top: 30px;
+}
