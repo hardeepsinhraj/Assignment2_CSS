@@ -1,0 +1,43 @@
+/* Base Styles */
+html{
+    size: 500px;
+}
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    
+}
+
+#container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Header */
+header h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d37c00;
+    border-bottom: 2px solid #d37c00;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Article Image */
+article img {
+   width: 100%; 
+    height: auto;
+    margin-bottom: 10px;
+    
+    
+}
+
